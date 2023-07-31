@@ -1,17 +1,17 @@
 <div class="container">
-  <h1> Olá {{nome}}! </h1>
+  <h1> Olá {{ nome + " " + sobrenome }}! </h1>
   <h2> Confira aqui sua lista de imóveis: </h2>
   <mat-grid-list cols="3" rowHeight="3:5">
-    <mat-grid-tile  *ngFor="let imovel of imoveis">
+    <mat-grid-tile *ngFor="let imovel of imoveis">
       <mat-card>
-        <img mat-card-image src="./assets/img/casa.jpg" alt="Foto da casa">
+        <img mat-card-image [src]="imovel.foto" [alt]="imovel.titulo">
         <mat-card-content>
-            <h2>{{imovel}}</h2>
+            <h2>{{ imovel.titulo }}</h2>
             <ul>
-                <li>Quartos: 4</li>
-                <li>Banheiros: 2</li>
-                <li>Metragem: 360 m²</li>
-                <li>Preço: R$ 890.000,00</li>
+                <li>Quartos: {{ imovel.quartos }}</li>
+                <li>Banheiros: {{ imovel.banheiros }}</li>
+                <li>Metragem: {{ imovel.area }} m²</li>
+                <li>Preço: R$ {{ imovel.preco }},00</li>
             </ul>
         </mat-card-content>
         <mat-card-actions>
