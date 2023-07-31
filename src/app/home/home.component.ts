@@ -12,5 +12,5 @@ import {MatCardModule} from '@angular/material/card';
 })
 export class HomeComponent {
   nome: string = 'Guilherme';
-  imoveis: string[] = ["batata", "banana", "abacate"];
+  imoveis: string[] = ["Casa Magnífica", "Apartamento Padrão", "Casa de Campo"];
 }
