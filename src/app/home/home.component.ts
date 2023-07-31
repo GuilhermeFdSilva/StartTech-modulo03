@@ -1,16 +1,24 @@
 import { Component } from '@angular/core';
-import { NgFor } from '@angular/common'
+import { NgFor, NgIf } from '@angular/common';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
   standalone: true,
-  imports: [MatGridListModule, MatCardModule, NgFor]
+  imports: [MatGridListModule, MatCardModule, NgFor, NgIf]
 })
 export class HomeComponent {
+
+  constructor(private router: Router) { }
+
+  verDetalhes(imovelId: string) {
+    this.router.navigate(['/detalhes', imovelId]);
+  }
+
   nome: string = 'Guilherme';
   sobrenome: string = 'França';
   imoveis: Array<any> = [

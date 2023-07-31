@@ -11,6 +11,13 @@
     font-size: $grande;
     color: $cor-principal;
   }
+  
+  h2 {
+    padding-top: 20px;
+    font-family: $fonte-principal;
+    font-size: $media;
+    color: $cor-principal;
+  }
 
   mat-grid-tile {
     
@@ -30,7 +37,7 @@
 
       mat-card-content {
         
-        h2 {
+        h3 {
             font-family: $fonte-principal;
             font-size: $grande;
             color: $cinza-escuro;
