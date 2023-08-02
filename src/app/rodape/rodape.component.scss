@@ -1,0 +1,27 @@
+@import '../app.component.scss';
+
+.rodape-spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar-row {
+  background-color: $cor-secundaria;
+  color: $branco;
+
+  div{
+    margin: auto;
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    h3 {
+        margin-top: 20px;
+    }
+  }
+}
+
+.filtro {
+    filter: invert(100%);
+}
