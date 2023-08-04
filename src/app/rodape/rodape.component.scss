@@ -4,24 +4,20 @@
   flex: 1 1 auto;
 }
 
-mat-toolbar-row {
+mat-toolbar {
   background-color: $cor-secundaria;
   color: $branco;
 
-  div{
-    margin: auto;
+  div {
     width: 1140px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+    margin: auto;
 
     h3 {
-        margin-top: 20px;
+      margin: 0;
+    }
+
+    .filtro {
+      filter: invert(100%);
     }
   }
-}
-
-.filtro {
-    filter: invert(100%);
 }
