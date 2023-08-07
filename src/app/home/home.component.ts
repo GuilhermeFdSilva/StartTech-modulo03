@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
-import { NgFor, NgIf } from '@angular/common';
+import { CommonModule } from '@angular/common';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
 import { Router } from '@angular/router';
 
 @Component({
@@ -9,7 +10,7 @@ import { Router } from '@angular/router';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
   standalone: true,
-  imports: [MatGridListModule, MatCardModule, NgFor, NgIf]
+  imports: [MatGridListModule, MatCardModule, MatIconModule, CommonModule]
 })
 export class HomeComponent {
 
@@ -17,6 +18,10 @@ export class HomeComponent {
 
   verDetalhes(imovelId: string) {
     this.router.navigate(['/detalhes', imovelId]);
+  }
+
+  toogleFavorito(index: number): void {
+    this.imoveis[index].favorito = !this.imoveis[index].favorito;
   }
 
   nome: string = 'Guilherme';

@@ -1,15 +1,13 @@
 <mat-toolbar>
   <div>
-    <mat-toolbar-row>
-      <h3>{{ title }} | {{ copyright }} por {{ developer }}</h3>
-      <span class="rodape-spacer"></span>
-      <article *ngFor="let rede of redesSociais">
-        <a [href]="rede.link">
-          <button mat-icon-button>
-            <mat-icon><img [src]="rede.icone" [alt]="rede.nome" class="filtro"></mat-icon>
-          </button>
-        </a>
-      </article>
-    </mat-toolbar-row>
+    <h3>{{ title }} | {{ copyright }} por {{ developer }}</h3>
+    <span class="rodape-spacer"></span>
+    <article *ngFor="let rede of redesSociais">
+      <a [href]="rede.link">
+        <button mat-icon-button>
+          <mat-icon><img [src]="rede.icone" [alt]="rede.nome" class="filtro"></mat-icon>
+        </button>
+      </a>
+    </article>
   </div>
 </mat-toolbar>

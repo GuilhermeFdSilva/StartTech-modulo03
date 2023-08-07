@@ -9,6 +9,8 @@ mat-toolbar {
   color: $branco;
 
   div {
+    display: flex;
+    align-items: center;
     width: 1140px;
     margin: auto;
 

@@ -63,6 +63,23 @@
         
         padding-bottom: 20px;
 
+        .favorite {
+          width: 20%;
+          background-color: $branco;
+          border: 1px solid $cor-principal;
+          margin: 10px;
+
+          mat-icon {
+            color: $cor-principal;
+          }
+        }
+
+        .favorite-checked {
+          width: 20%;
+          background-color: $cor-principal;
+          margin: 10px;
+        }
+
         button {
             display: block;
             width: 100%;
