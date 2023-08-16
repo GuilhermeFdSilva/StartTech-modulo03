@@ -73,7 +73,6 @@ export class ContatoComponent {
     this.http.post('http://localhost:3000/contato', formData, body)
       .subscribe(
         response => {
-          // console.log("Formulário enviado com sucesso: ", response);
           this._snackBar.open('Formulário enviado com sucesso!', 'Fechar', {
             horizontalPosition: this.horizontalPosition,
             verticalPosition: this.verticalPosition,
