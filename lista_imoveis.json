@@ -1,0 +1,82 @@
+{
+  "imoveis": [
+    {
+      "id": 1,
+      "titulo": "Casa Magnífica",
+      "descricao": "Bem-vindo(a) ao seu futuro lar! Esta magnífica casa de 4 quartos, com duas suítes, é a oportunidade perfeita para você e sua família desfrutarem de uma vida confortável e elegante. Com seus generosos 4 quartos, esta casa oferece amplo espaço para acomodar toda a família. Além disso, duas suítes privativas garantem o máximo de conforto e privacidade para os moradores. A sala de estar espaçosa e aconchegante é perfeita para momentos de lazer em família ou para receber amigos. O ambiente proporciona um cenário ideal para desfrutar de noites agradáveis e descontraídas.",
+      "descricao2": "Essa casa representa uma oportunidade imperdível para conquistar um lar que combina conforto, elegância e praticidade em uma localização privilegiada. Não perca tempo e agende uma visita hoje mesmo!",
+      "foto": "https://i.ibb.co/JKzFtzj/casa.jpg",
+      "quartos": 4,
+      "banheiros": 3,
+      "area": 360,
+      "preco": 990000,
+      "favorito": true
+    },
+    {
+      "id": 2,
+      "titulo": "Apartamento Padrão",
+      "descricao": "Encante-se com este belo apartamento padrão, perfeito para casais ou solteiros. Com 2 quartos bem distribuídos e 1 banheiro, oferece aconchego e praticidade. Aproveite a área de 45 metros quadrados para criar um espaço que reflete seu estilo único. Um investimento com ótimo custo-benefício.",
+      "descricao2": "Este apartamento é uma excelente opção para quem busca um lar moderno e funcional. Sua localização conveniente proporciona fácil acesso a comércios locais e áreas de lazer. Não perca a chance de viver com conforto e estilo!",
+      "foto": "https://i.ibb.co/tmsG61R/apartamento.jpg",
+      "quartos": 2,
+      "banheiros": 1,
+      "area": 45,
+      "preco": 120000,
+      "favorito": false
+    },
+    {
+      "id": 3,
+      "titulo": "Casa de Campo",
+      "descricao": "Viva a tranquilidade e o conforto nesta esplêndida casa de campo com 7 quartos e 5 banheiros. Com uma área de 800 metros quadrados, essa casa oferece espaço de sobra para relaxar e aproveitar momentos especiais em meio à natureza. Uma oportunidade única para criar memórias inesquecíveis com sua família.",
+      "descricao2": "Esta casa de campo oferece uma combinação perfeita entre conforto e rusticidade. O amplo espaço interno e a área externa generosa são ideais para lazer e entretenimento. Aproveite a vida cercado pela natureza e desfrute de toda a comodidade que esse lar proporciona.",
+      "foto": "https://i.ibb.co/5h1XHzY/casa-de-campo.jpg",
+      "quartos": 7,
+      "banheiros": 5,
+      "area": 800,
+      "preco": 1500000,
+      "favorito": false
+    },
+    {
+      "id": 4,
+      "titulo": "Flat Minimalista",
+      "descricao": "Experimente o estilo de vida moderno e compacto neste charmoso flat minimalista. Com 1 quarto e 1 banheiro, é ideal para quem valoriza a praticidade sem abrir mão do conforto. Aproveite ao máximo os 36 metros quadrados, criando um ambiente que reflete sua personalidade.",
+      "descricao2": "Esse flat é a opção perfeita para quem busca praticidade e estilo em um só lugar. Com um design minimalista, oferece tudo o que você precisa sem excessos. A localização central é um bônus, proporcionando fácil acesso a comércios e transportes.",
+      "foto": "https://i.ibb.co/FqSpsYt/flat.jpg",
+      "quartos": 1,
+      "banheiros": 1,
+      "area": 36,
+      "preco": 180000,
+      "favorito": false
+    },
+    {
+      "id": 5,
+      "titulo": "Sala Comercial",
+      "descricao": "Explore oportunidades comerciais ilimitadas com esta sala de 25 metros quadrados. Um banheiro privativo oferece comodidade, enquanto a localização estratégica garante visibilidade. Perfeito para empreendedores que buscam um espaço funcional e convidativo para seus negócios.",
+      "descricao2": "Essa sala comercial oferece um ambiente versátil para empreendedores de diversos setores. Com uma disposição inteligente e um ambiente acolhedor, é o local perfeito para estabelecer seu negócio. A visibilidade e o fluxo de pessoas são garantidos devido à sua localização estratégica.",
+      "foto": "https://i.ibb.co/2nNsFkt/sala-comercial.jpg",
+      "quartos": 0,
+      "banheiros": 1,
+      "area": 25,
+      "preco": 250000,
+      "favorito": true
+    },
+    {
+      "id": 6,
+      "titulo": "Cobertura Duplex",
+      "descricao": "Desfrute da sofisticação nesta cobertura duplex com 3 quartos e 3 banheiros. Com uma área de 200 metros quadrados, essa cobertura oferece vistas panorâmicas e espaços elegantes. O design moderno se une à funcionalidade, criando um ambiente perfeito para receber amigos ou relaxar em grande estilo.",
+      "descricao2": "Esta cobertura duplex é um refúgio urbano que combina luxo e conforto. Os amplos espaços internos fluem perfeitamente para os terraços arejados, proporcionando uma vista deslumbrante da cidade. Seja para entretenimento ou relaxamento, este é o lugar onde você deseja estar.",
+      "foto": "https://i.ibb.co/pPHQfW2/cobertura.jpg",
+      "quartos": 3,
+      "banheiros": 3,
+      "area": 200,
+      "preco": 1500000,
+      "favorito": true
+    }
+  ],
+  "contato": {
+    "nome": "sdfhakjsdfj",
+    "email": "francaguilherme27@gmail.com",
+    "assunto": "vendas",
+    "mensagem": "sdjfhashdgfjasdf"
+  }
+}
