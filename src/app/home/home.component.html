@@ -3,7 +3,7 @@
     <h1> Olá {{ nome + " " + sobrenome | uppercase }} </h1>
     <h2> Confira aqui os seus imóveis favoritos: </h2>
     <mat-grid-list cols="3" rowHeight="3:5">
-      <div *ngFor="let imovel of imoveis; let i = index">
+      <div *ngFor="let imovel of imoveis">
         <mat-grid-tile *ngIf="imovel.favorito">
           <mat-card>
             <img mat-card-image [src]="imovel.foto" [alt]="imovel.titulo">
@@ -17,7 +17,7 @@
               </ul>
             </mat-card-content>
             <mat-card-actions>
-              <button [class]="imovel.favorito ? 'favorite-checked' : 'favorite'" mat-button (click)="toogleFavorito(i)">
+              <button [class]="imovel.favorito ? 'favorite-checked' : 'favorite'" mat-button (click)="toogleFavorito(imovel.id)">
                 <mat-icon aria-hidden="false" aria-label="Favorito" fontIcon="favorite"></mat-icon>
               </button>
               <button mat-button (click)="verDetalhes(imovel.id)">Mais detalhes</button>
@@ -30,7 +30,7 @@
   <section id="lista-imoveis">
     <h2> Todos os imoveis: </h2>
     <mat-grid-list cols="3" rowHeight="3:5">
-      <mat-grid-tile *ngFor="let imovel of imoveis; let i = index">
+      <mat-grid-tile *ngFor="let imovel of imoveis">
         <mat-card>
           <img mat-card-image [src]="imovel.foto" [alt]="imovel.titulo">
           <mat-card-content>
@@ -43,7 +43,7 @@
             </ul>
           </mat-card-content>
           <mat-card-actions>
-            <button [class]="imovel.favorito ? 'favorite-checked' : 'favorite'" mat-button (click)="toogleFavorito(i)">
+            <button [class]="imovel.favorito ? 'favorite-checked' : 'favorite'" mat-button (click)="toogleFavorito(imovel.id)">
               <mat-icon aria-hidden="false" aria-label="Favorito" fontIcon="favorite"></mat-icon>
             </button>
             <button mat-button (click)="verDetalhes(imovel.id)">Mais detalhes</button>
