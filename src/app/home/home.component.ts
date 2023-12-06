@@ -38,7 +38,7 @@ export class HomeComponent implements OnInit {
   constructor(private router: Router, private http: HttpClient, private _snackBar: MatSnackBar) { }
 
   ngOnInit(): void {
-    this.http.get<any>('http://localhost:3000/imoveis').subscribe(data => {
+    this.http.get<any>('https://json-server-start-tech.vercel.app/imoveis').subscribe(data => {
       this.imoveis = data;
     });
   }
@@ -48,11 +48,11 @@ export class HomeComponent implements OnInit {
   }
 
   toogleFavorito(imovelId: number): void {
-    this.http.get<any>('http://localhost:3000/imoveis/' + imovelId).subscribe(data => {
+    this.http.get<any>('https://json-server-start-tech.vercel.app/imoveis/' + imovelId).subscribe(data => {
       this.imovel = data;
       this.imovel.favorito = !this.imovel.favorito;
 
-      this.http.patch('http://localhost:3000/imoveis/' + imovelId, { favorito: this.imovel.favorito })
+      this.http.patch('https://json-server-start-tech.vercel.app/imoveis/' + imovelId, { favorito: this.imovel.favorito })
         .subscribe(
           response => {
             if (this.imovel.favorito) {
@@ -68,7 +68,7 @@ export class HomeComponent implements OnInit {
                 duration: 5000
               });
             }
-            this.http.get<any>('http://localhost:3000/imoveis').subscribe(data => {
+            this.http.get<any>('https://json-server-start-tech.vercel.app/imoveis').subscribe(data => {
               this.imoveis = data;
             });
           },

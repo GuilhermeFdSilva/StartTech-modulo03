@@ -18,7 +18,7 @@ export class DetalhesComponent implements OnInit {
     this.router.paramMap.subscribe(params => {
       this.imovelId = params.get('id') ?? '';
     });
-    this.http.get<any>(`http://localhost:3000/imoveis/${this.imovelId}`).subscribe(data => {
+    this.http.get<any>(`https://json-server-start-tech.vercel.app/imoveis/${this.imovelId}`).subscribe(data => {
       this.imovel = data;
     })
   }
