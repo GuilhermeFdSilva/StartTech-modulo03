@@ -70,7 +70,7 @@ export class ContatoComponent {
       })
     };
 
-    this.http.post('http://localhost:3000/contato', formData, body)
+    this.http.post('', formData, body)
       .subscribe(
         response => {
           this._snackBar.open('Formulário enviado com sucesso!', 'Fechar', {
