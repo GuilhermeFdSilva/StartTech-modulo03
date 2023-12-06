@@ -1,27 +1,61 @@
-# Lar Feliz Imoveis
+# Lar feliz Imóveis 🏠
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+## Aulas do curso START Tech 🧑🏽‍💻
 
-## Development server
+Esse projeto foi desenvolvido durante o 3° e 4° módulo do curso de Angular do START Tech. 👾<br>
+O projeto consiste em um site de imobiliária, onde podemos ver os detalhes de cada imovel. 🛖🏚️🏡
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologias aplicadas
 
-## Code scaffolding
+<a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Angular_getting_started" target="_blank">
+  <img src="https://guilhermefdsilva.github.io/read-db-myPortfolio/sticks/stick-angular.svg" alt="Angular" height="28px">
+</a>
+<br>
+<a href="https://www.typescriptlang.org/docs/" target="_blank">
+  <img src= "https://guilhermefdsilva.github.io/read-db-myPortfolio/sticks/stick-typescript.svg" alt="TypeScript" height="28px">
+</a>
+<br>
+<a href="https://sass-lang.com/documentation/" target="_blank">
+  <img src= "https://guilhermefdsilva.github.io/read-db-myPortfolio/sticks/stick-sass.svg" alt="SASS" height="28px">
+</a>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Só acredito vendo 👀
 
-## Build
+Você pode [acessar aqui](http://lar-feliz-deploy.s3-website-sa-east-1.amazonaws.com/home)!
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**Ou**
 
-## Running unit tests
+Rodar esse projeto em sua máquina, você vai precisar de:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* [Node.js](https://nodejs.org/en) v16+
+* [NPM](https://docs.npmjs.com/cli/v6/commands/npm-install) v8+
 
-## Running end-to-end tests
+**Primeiro passo**: Certifique-se de ter o angular instalado globalmente em sua máquina.
+```
+npm install -g @angular/cli
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+**Segundo**: Clone esse repositório.
+```
+git clone https://github.com/GuilhermeFdSilva/StartTech-modulo03.git
+```
 
-## Further help
+**Terceiro**: Navegue até a pasta do projeto.
+```
+cd StartTech-modulo03/
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**Quarto**:  Instale as dependências do projeto.
+```
+npm install
+```
+
+**Qunto**: Inicie um servidor local.
+```
+ng serve
+```
+
+Agora é só acessar em qualquer navegador [localhost:4200/](http://localhost:4200/)
+
+### Contribuições são bem-vindas! 🫱🏽‍🫲🏾
+
